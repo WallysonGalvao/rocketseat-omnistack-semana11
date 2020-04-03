@@ -61,7 +61,7 @@ Se desejar, pode rodar o projeto em modo debug, usando o seguinte comando:
 $ yarn dubug
 ```
 
-Está disponível também testes de integração e unitários:
+Está disponível também testes unitários e de integração:
 
 ```
 $ yarn test
