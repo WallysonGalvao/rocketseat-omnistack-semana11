@@ -29,6 +29,16 @@ Abaixo estão descritas as funcionalidades do backend:
 
 ### 1. Autenticação
 
+Autenticação do usuário administrador com ID.
+
+### 2. Gestão de casos
+
+Cadastro de casos que necessitam de ajuda na aplicação.
+
+### **Usuário**
+
+### 1. Visualizar de casos
+
 ## :zap: Rodando o projeto
 
 1 - Em um terminal, entrar na raiz do projeto **/backend** e rodar o comando:
@@ -51,10 +61,22 @@ Se desejar, pode rodar o projeto em modo debug, usando o seguinte comando:
 $ yarn dubug
 ```
 
+Está disponível também testes de integração e unitários:
+
+```
+$ yarn test
+```
+
+### Migrations
+
+Para a criar o banco de dados, é disponibilizado **migrations** dentro do diretório **/src/database**, rodar o seguinte comando na raiz do projeto:
+
+```
+$ yarn knex migrate:latest
+```
+
 ## :notebook: Endpoints
 
 Você pode executar online ou fazer o download dos endpoints e executar diretamente no Insomnia:
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=https%3A%2F%2Fraw.githubusercontent.com%2FWallysonGalvao%2Frocketseat-omnistack-semana11%2Fmaster%2Fbackend%2Fendpoints.json)
-
----
